@@ -1,0 +1,51 @@
+section {
+  display: grid;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+  width: 750px;
+}
+
+.kattcha {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-size: 250px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.vald {
+  border: 2px solid red;
+}
+
+#kattcha1 {
+  background-image: url("./img/bild1.jpg");
+}
+#kattcha2 {
+  background-image: url("./img/bild2.jpg");
+}
+#kattcha3 {
+  background-image: url("./img/bild3.jpg");
+}
+#kattcha4 {
+  background-image: url("./img/bild4.jpg");
+}
+#kattcha5 {
+  background-image: url("./img/bild5.jpg");
+}
+#kattcha6 {
+  background-image: url("./img/bild6.jpg");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 2em;
+  font-size: 24px;
+}
